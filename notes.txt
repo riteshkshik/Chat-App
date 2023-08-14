@@ -1,0 +1,12 @@
+display: flex;    
+align-items: center;
+Above two lines of css makes the content center vertically
+
+
+1.43
+
+
+
+input enter funtionality
+chats view fix
+
