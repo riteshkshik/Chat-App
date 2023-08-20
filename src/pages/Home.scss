@@ -22,7 +22,6 @@
     justify-content: center;
 
     .container{
-        border: 1px solid red;
         width: 65%;
         height: 80%;
         border-radius: 10px;
@@ -117,18 +116,18 @@
                     flex-direction: column;
                     justify-content: space-around;
                     // align-items: flex-start;
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     span{
                         font-style: 18px;
                         font-weight: 500;
                         margin: 0px;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                     }
                     p{
                         font-style: 14px;
                         color: lightgrey;
                         margin: 0px;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                     }
                 }
             }
@@ -176,6 +175,7 @@
                         }
                     }
                     .messageContent{
+                        cursor: pointer;
                         max-width: 80%;
                         display: flex;
                         flex-direction: column;
@@ -204,6 +204,17 @@
 
                 }
             }
+            .messages::-webkit-scrollbar{
+                width: 5px;
+            }
+            .messages::-webkit-scrollbar-thumb{
+                background: linear-gradient(transparent, #00c6ff);
+                border-radius: 6px;
+            }
+            .messages::-webkit-scrollbar-thumb:hover{
+                background: linear-gradient(transparent, #30ff00);
+            }
+
             .input{
                 background-color: white;
                 height: 50px;
