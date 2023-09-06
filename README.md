@@ -1,6 +1,6 @@
 # Chat App
 
-![Chat App Screenshot](https://firebasestorage.googleapis.com/v0/b/chat-app-55372.appspot.com/o/chap%20app%20ss.png?alt=media&token=94224f90-69fa-4c7c-b5c4-953ec68635e6)
+![Chat App Screenshot](https://firebasestorage.googleapis.com/v0/b/chat-app-55372.appspot.com/o/chap%20app%20ss.png?alt=media&token=af4c057e-2554-4a56-b765-8e36306ebf80)
 
 Welcome to the Chat App! This real-time chat application allows users to connect with others and engage in one-to-one messaging. It is built using ReactJS for the frontend and Firebase for real-time database management. Chat App offers user authentication, personalized profiles, and an intuitive chat interface.
 
