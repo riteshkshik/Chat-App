@@ -24,14 +24,14 @@ const Message = ({message}) => {
 
     if(timeDifferenceHours >= 24){
       const day = date.getDate();
-      const month = date.toLocaleString("default", { month: "long" });
+      const month = date.toLocaleString("default", { month: "short" });
       setMessageTime(`${day} ${month}`);
     }else{
       if(timeDifferenceHours < 1){
         const minutes = Math.floor((currentDate - date) / (1000 * 60));
-        setMessageTime(`${minutes} min ago`);
+        setMessageTime(`${minutes} min`);
       }else{
-        setMessageTime(`${timeDifferenceHours} hr ago`)
+        setMessageTime(`${timeDifferenceHours} hr`)
       }
       
     }
